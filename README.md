@@ -24,6 +24,8 @@ POST    /3000/view  View Dicom files page.
 
 
 ------------------------------------------------------
-
+Security Design Measures:
+- I implemented authentication to allow only user to access their previously uploaded files and also since files security is of high calibre I encrypted medical files on the server using AES encryption while generating the key uniquely from each user's hashed password to increase the security.
+-----------------------------------------------------
 Some backend Apis are created that is not yet connected to the frontend app.
 
