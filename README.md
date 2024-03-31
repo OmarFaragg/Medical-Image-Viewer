@@ -1,7 +1,8 @@
 To run both servers:
--- install requirements.txt for Api app.
--- run "python main.py" for api server.
--- run "npm start" for frontend server.
+
+ - install requirements.txt for Api app.
+ - run "python main.py" for api server.
+ - run "npm start" for frontend server.
 
 # Medical-Image-Viewer
 
